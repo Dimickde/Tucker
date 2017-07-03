@@ -9,7 +9,7 @@ include_once('inc/header.php');
 	<input type = "number" name = "IntOne" class="form-control" placeholder="Input1...">
 	</div>
 	<div class="form_group">
-	<label for="IntTwo">Input1: </label>
+	<label for="IntTwo">Input2: </label>
 	<input type = "number" name = "IntTwo" class="form-control" placeholder="Input2...">
 	</div>
 	

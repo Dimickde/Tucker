@@ -1,13 +1,7 @@
+<?php include_once('inc/header.php');
 
+?>
 
-
-<!doctype html>
-<html>
-	<head>	
-		<meta charset="utf-8">
-<title> Calculator </title>
-	</head>
-<body>
 <form action = "resources/ParseMath.php" method = post>
 	Input1: <input type = "number" name = "IntOne"> <br>
 	Input2: <input type = "number" name = "IntTwo"> <br>
@@ -16,6 +10,6 @@
 </form>
 
 
-</form>
-</body>
-</html>
+<?php include_once('inc/footer.php');
+
+?>

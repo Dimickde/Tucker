@@ -1,3 +1,3 @@
-<?php echo date();?>
+<?php echo date('m-d-Y');?>
 </body>
 </html>

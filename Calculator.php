@@ -1,3 +1,6 @@
+
+
+
 <!doctype html>
 <html>
 	<head>	
@@ -5,36 +8,13 @@
 <title> Calculator </title>
 	</head>
 <body>
+<form action = "resources/ParseMath.php" method = post>
+	Input1: <input type = "number" name = "IntOne"> <br>
+	Input2: <input type = "number" name = "IntTwo"> <br>
+	<input type = "submit" name = "add" value = "Add"> 
+	<input type = "submit" name = "subtract" value = "Subtract">
+</form>
 
-	<?php
-		function add($n1 = 0, $n2 = 0)
-		{
-			$sum = $n1 + $n2;
-			return $sum;
-		}
-
-		function subtract($n1 = 0, $n2 = 0)
-		{
-			$difference = $n1 - $n2;
-			return $difference;
-		}
-
-		$num1 = $_REQUEST['IntOne'];
-		$num2 = $_REQUEST['IntTwo'];
-
-		if (isset($_POST['add']))
-		{
-			 
-			echo "Your sum is: " . add($num1, $num2);
-		}
-
-		else
-		{
-			
-			echo "Your difference is: " . subtract($num1, $num2);
-		}
-
-		?>
 
 </form>
 </body>

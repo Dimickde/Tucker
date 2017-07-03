@@ -1,4 +1,5 @@
-<?php include_once('inc/header.php');
+<?php  $page_title = "Calculator";
+include_once('inc/header.php');
 
 ?>
 
